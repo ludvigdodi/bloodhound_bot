@@ -1,6 +1,6 @@
 import requests
+from bot_token import token
 
-token = "5488524499:AAG1Jsp4ESZ_MRpPVLbqeOM12WEhrj-MXIg"
 root_url = "https://api.telegram.org/bot"
 ok_codes = 200, 201, 202, 203, 204
 
