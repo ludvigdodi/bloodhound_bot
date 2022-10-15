@@ -1,5 +1,5 @@
-#сисемная папка
+#system directory
 __pycache__/
 
-#файл с токеном
+#file with token
 bot_token
