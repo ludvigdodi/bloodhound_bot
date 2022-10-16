@@ -4,8 +4,6 @@ from bot_token import token
 ok_codes = 200, 201, 202, 203, 204
 
 user = {"username": "Ludvig", "level": 1}
-
-
 sentences = [
     {"text": "When my time comes \n Forget the wrong that I’ve done.", "level": 1},
     {"text": "In a hole in the ground there lived a hobbit.", "level": 2},
@@ -78,8 +76,8 @@ class Bot:
             print(f"Request failed with status_code {res.status_code}")
             return False
 
+    # processing the incoming message and issuing a response that will be sent to the user
     def process_message(self, message: str) -> str:
-        """обрабтывает входящее сообщение и выдает ответ, который будет отправлен юзеру"""
         matched_sentences = fill_matched_sentences(
             message=message, user=user, sentences=sentences
         )
