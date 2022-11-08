@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# token = "5645942050:AAFeK453jVLJfdAlg2359HR4NYjB2vU9A9Q"
+# token = "5488524499:AAG1Jsp4ESZ_MRpPVLbqeOM12WEhrj-MXIg"
 
-token = "5645942050:AAFeK453jVLJfdAlg2359HR4NYjB2vU9A9Q"
+token = "5488524499:AAG1Jsp4ESZ_MRpPVLbqeOM12WEhrj-MXIg"
 =======
 from os import environ as env
 
